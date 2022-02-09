@@ -2,7 +2,7 @@ $(document).ready(function () {
   let total = $.cookie("amount");
   let total_price = total * 59;
 
-  $("#amount").val(total);
+  $("#amount").text(total);
   $("table .total").text(total_price);
   $(".cart-detail .total").text(total_price);
 
